@@ -1,0 +1,226 @@
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),
+         url("/fonts/Roboto-Regular.ttf") format("ttf"),
+         url("/fonts/Roboto-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Roboto"),
+         url("/fonts/Roboto-Medium.ttf") format("ttf"),
+         url("/fonts/Roboto-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Roboto"),
+         url("/fonts/Roboto-Light.ttf") format("ttf"),
+         url("/fonts/Roboto-Light.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    src: local("Roboto"),
+         url("/fonts/Roboto-Black.ttf") format("ttf"),
+         url("/fonts/Roboto-Black.ttf") format("ttf");
+}
+
+@font-face {
+      font-family: "Gotham Rounded"; 
+      font-style: normal; 
+      font-weight: 300;
+      src: local("Cotham Rounded"),      
+      url("/fonts/gothamrounded-light.otf") format("otf"),
+      url("/fonts/gothamrounded-light.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Gotham Rounded"; 
+    font-style: normal; 
+    font-weight: 500;
+    src: local("Cotham Rounded"),      
+    url("/fonts/gothamroundedbook_21018.ttf") format("ttf"),
+    url("/fonts/gothamroundedbook_21018.ttf") format("ttf");
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    font-size: 18px;
+    color:#6fbcaa;
+    display: block;
+    font-family: "Roboto";
+    font-weight: 900;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    font-size: 16px;
+    font-family: "Roboto";
+    margin: 0 auto;
+    position: relative;
+    text-align: center;    
+}
+
+ul{    
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+li{
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+li a{
+    text-decoration: none;  
+    color: #15aD85;    
+    letter-spacing: 3px; 
+}
+
+main{
+    background-color: #f5f6f7;
+    font-family: inherit;
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+    height: auto;
+    
+}
+
+h1{   
+    font-size: 22px;
+    font-family: "Roboto";
+    color: #373737;
+    text-transform: uppercase;     
+    text-align: center;
+    position: inherit;
+    margin-top: 50px;  
+    letter-spacing: 2px;  
+    font-weight: 900;    
+}
+
+
+.subtext{
+    color: #373737;
+    font-family: "Roboto";
+    text-align: center;    
+    font-size: 16px;
+    font-weight: 900;    
+    margin-left: 112.117px;    
+    margin-right: 112.117px;    
+    line-height: 1.625;    
+    margin-top: 25px;
+    letter-spacing: 1.5px;    
+}
+
+button {
+    border-radius: 2px;
+    border-color: rgb(22, 160, 133);
+    background-color: rgb(22, 160, 133);
+    position: inherit;
+    width: 192px;
+    height: 51px;
+    margin-top: 41px;
+    margin-bottom: 94px;
+    font-weight: 500;
+    border: none; outline: none;
+}
+
+button p{
+    font-size: 12px;
+    font-family: "Gotham Rounded";
+    color: rgb(255, 255, 255);    
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 5px;    
+}
+
+footer{
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff;
+    font-size: 18px;
+    color:#6fbcaa;
+    display: block;
+    font-family: "Roboto";
+    font-weight: 900;
+}
+
+.footer-nav {
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    position: inherit;
+    margin-top: 39px;
+    margin-left: 107px;
+    float: left;
+}
+
+.nav-item{
+    text-decoration: none;  
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(55, 55, 55);
+    letter-spacing: 2px;
+    
+}
+
+.cop {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(55, 55, 55);
+    text-align: left;
+    position: inherit;
+    float: right;
+    margin-top: 37px;
+    margin-right: 104px;
+    letter-spacing: 2px;
+}
+
+
+  
+  
+  
+
+
+
+  
+  
+
+
+  
+  
+    
+    
+
+
+
+    
+
