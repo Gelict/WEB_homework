@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+.header-design-and-architecture {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d2124;
+    height: 70px;
+}
+
+.nav_menu_list_items {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.search_block {
+    width: 68px;
+    background-color: #171a1c;
+    height: 70px;
+}
+
+.search_image {
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.list-items-links:hover {
+    color: #14B9D5;
+}
+
+
+.header-the-latest-news {
+    width: 100%;
+    height: 369px;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: 0px 0px;
+    background-image: url("../images/header/header-background.jpg");
+}
+
+.most-popular-posts{
+    background-color: #F2F2F2;
+}
+
+.post-item{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 31px;
+}
+
+.divider-blue{
+    width: 60px;
+    height: 3px;
+    background-color: #18B4CF;
+    margin: 87px auto 106px;
+}
+
+.the-latest-news-title {
+    font-family: Open Sans;
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+
+.the-latest-news-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 44px;
+}
+
+.btn {
+    color: white;
+    font-size: 18px;
+    padding: 16px 19px;
+    border: none;
+    border-radius: 7px;
+    font-family: "Open sans";
+}
+
+.subscribe-now-btn {
+    margin-right: 20px;
+    background-color: #89CA62;
+    text-decoration: none;
+}
+
+.list-items-links {
+    font-family: "Open sans";
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.best-articles-btn {
+    background-color: #14B9D5;
+    text-decoration: none;
+}
+
+.popular-posts-title{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #18B4CF;
+    padding: 50px 0px
+
+}
+
+.wrapper-popular-post-item {
+    display: flex;
+    justify-content: center;
+}
+
+.item-title{
+    padding-top: 30.5px;
+    padding-bottom: 30.5px;
+    text-align: center;
+    color: #353A3D;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Open Sans';
+    background-color: #FFFFFF;    
+}
+
+.most-popular-clients{
+    background-image: url(../images/most-populuar-clients/layer.png);
+    width: 100%;
+    height: 588px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.most-popular-clients-title{
+    padding-top: 106px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    text-transform: uppercase;
+    line-height: 37px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.list-popular-clients{
+    display: grid;
+    column-gap: 58px;
+    justify-content: center;
+    margin-bottom: 191px;
+    grid-template-columns: 207px 135px 232px 141px;    
+}
+
+.item-list:first-child{
+    margin-top: 12px;
+}
+
+.item-list:nth-child(2){
+    margin-top: 2px;
+}
+
+.top-rated-title{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #18B4CF;
+    padding: 50px 0px;
+    line-height: 37px;
+}
+
+.hot-news-wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+}
+
+.hot-news-block {
+    background-color: #F9F7F7;
+}
+
+.hot-news-grid{
+    display: grid;
+    grid-gap: 30px 35px;
+    grid-template-areas:
+    "item1 item1 item1 item2"
+    "item3 item3 item4 item4"
+    "item5 item5 item6 item6"
+    "item7 item8 item8 item8";
+}
+
+.top-rated-pictures{
+    display: grid;
+    grid-template-columns: repeat(7, 14.2%);
+    width: 100%;
+}
+
+.hot-news-title{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #18B4CF;
+    padding: 50px 0px
+}
+
+
+.item1{
+    grid-area: item1;
+    display: flex;
+}
+
+.item2{
+    grid-area: item2;
+}
+
+.item3{
+    grid-area: item3;
+}
+
+.item4{
+    grid-area: item4;
+}
+
+.item5{
+    grid-area: item5;
+}
+
+.item6{
+    grid-area: item6;
+}
+
+.item7{
+    grid-area: item7;
+}
+
+.item8{
+    grid-area: item8;
+    display: flex;
+}
+
+.block-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #353A3D;
+    text-align: right;
+    padding-right: 14px;
+    padding-top: 14px;
+
+}
+
+.first-block{
+    text-align: center;
+    padding: 41px 24px 14.5px 31px;
+}
+
+.block-desription{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5B6469;
+    padding: 15px 14px 3px 14px;
+    text-align: right;
+}
+
+.first-description{
+    padding: 0px 24px 40.5px 24px;
+}
+
+.second-block{
+    text-align: center;
+    padding-top: 12.5px;
+}
+
+.footer{
+    margin-top: 71px;
+    color: black;
+    height: 10px;
+}
+
+.wrapper-footer{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.logo-footer{
+    align-items: center;
+    display: flex;
+}
+
+.all-rights-footer{
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 13px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 350px;
+}
+
+.liot-logo, .liot-logo-text{
+    display: block;
+}
+
+.wrapper {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.architect_logo {
+    font-family: "Open sans";
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    color: white;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+.architect_img {
+    padding-left: 29px;
+    padding-right: 27px;
+
+}
